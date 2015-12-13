@@ -3,6 +3,7 @@
     "type":        "symfony-bundle",
     "description": "Genj Faq Admin bundle",
     "keywords":    ["genj", "faq", "admin", "symfony", "bundle"],
+    "homepage":    "http://github.com/genj/GenjFaqAdminBundle",
     "license":     "MIT",
 
     "authors": [
@@ -25,7 +26,8 @@
         "sensio/framework-extra-bundle": "~3.0",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
-        "doctrine/doctrine-fixtures-bundle": "~2.2"
+        "doctrine/doctrine-fixtures-bundle": "~2.2",
+        "genj/faq-bundle": "dev-master"
     },
 
     "minimum-stability": "dev",

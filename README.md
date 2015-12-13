@@ -1,6 +1,8 @@
 # GenjFaqAdminBundle
 
-The GenjFaqAdminBundle enables the admin for GenjFaqBundle.
+The GenjFaqAdminBundle enables the admin for GenjFaqBundle within SonataAdmin.
+No SonataAdmin, no FaqAdmin:
+https://sonata-project.org/bundles/admin/2-3/doc/index.html
 
 
 ## Installation
@@ -9,16 +11,6 @@ Add this to your composer.json:
 
 ```
     ...
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git.genj.nl:bundles/GenjAdminBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git.genj.nl:bundles/GenjFaqAdminBundle.git"
-        },
-        ...
         
     "require": {
         ...
