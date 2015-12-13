@@ -1,0 +1,38 @@
+{
+    "name":        "genj/faq-admin-bundle",
+    "type":        "symfony-bundle",
+    "description": "Genj Faq Admin bundle",
+    "keywords":    ["genj", "faq", "admin", "symfony", "bundle"],
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name":  "Choong Wei Tjeng",
+            "email": "choong.wei.tjeng@genj.nl"
+        },
+        {
+            "name":  "Nico Kaag",
+            "email": "nico.kaag@genj.nl"
+        },
+        {
+            "name":  "Susan Lau",
+            "email": "susan.lau@genj.nl"
+        }
+    ],
+
+    "require": {
+        "symfony/symfony": ">=2.5,<3.0-dev",
+        "sensio/framework-extra-bundle": "~3.0",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2",
+        "doctrine/doctrine-fixtures-bundle": "~2.2"
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-0": {
+            "Genj\\FaqAdminBundle\\": "src/"
+        }
+    }
+}
