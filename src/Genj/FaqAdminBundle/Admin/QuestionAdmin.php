@@ -59,12 +59,8 @@ class QuestionAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->with('Basics', array('position' => 'left'))
             ->add('headline', null, array('attr' => array('class' => 'span12')))
-            ->add('body', 'ckeditor', array('required' => false, 'attr' => array('class' => 'span12')))
-            ->end()
-
-            ->with('Status', array('position' => 'right'))
+            ->add('body', null, array('required' => false, 'attr' => array('class' => 'span12')))
             ->add('category', null, array(
                     'expanded' => true,
                     'required' => true,
