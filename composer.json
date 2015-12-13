@@ -1,7 +1,7 @@
 {
     "name":        "genj/faq-admin-bundle",
     "type":        "symfony-bundle",
-    "description": "Genj Faq Admin bundle",
+    "description": "Symfony Faq Admin bundle - backend version for GenjFaqBundle + SonataAdmin",
     "keywords":    ["genj", "faq", "admin", "symfony", "bundle"],
     "homepage":    "http://github.com/genj/GenjFaqAdminBundle",
     "license":     "MIT",
